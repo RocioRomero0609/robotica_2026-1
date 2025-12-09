@@ -1,0 +1,46 @@
+[0.826s] Invoking command in '/home/rocioromero/robotica_2026-1/nodes_topics_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rocioromero/robotica_2026-1/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nodes_topics_py build --build-base /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build install --record /home/rocioromero/robotica_2026-1/build/nodes_topics_py/install.log --single-version-externally-managed install_data
+[1.053s] running egg_info
+[1.054s] creating ../build/nodes_topics_py/nodes_topics_py.egg-info
+[1.071s] writing ../build/nodes_topics_py/nodes_topics_py.egg-info/PKG-INFO
+[1.072s] writing dependency_links to ../build/nodes_topics_py/nodes_topics_py.egg-info/dependency_links.txt
+[1.072s] writing entry points to ../build/nodes_topics_py/nodes_topics_py.egg-info/entry_points.txt
+[1.072s] writing requirements to ../build/nodes_topics_py/nodes_topics_py.egg-info/requires.txt
+[1.072s] writing top-level names to ../build/nodes_topics_py/nodes_topics_py.egg-info/top_level.txt
+[1.072s] writing manifest file '../build/nodes_topics_py/nodes_topics_py.egg-info/SOURCES.txt'
+[1.111s] reading manifest file '../build/nodes_topics_py/nodes_topics_py.egg-info/SOURCES.txt'
+[1.112s] adding license file 'LICENSE'
+[1.112s] writing manifest file '../build/nodes_topics_py/nodes_topics_py.egg-info/SOURCES.txt'
+[1.112s] running build
+[1.112s] running build_py
+[1.112s] creating /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build
+[1.112s] creating /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib
+[1.113s] creating /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib/nodes_topics_py
+[1.113s] copying nodes_topics_py/publish_node.py -> /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib/nodes_topics_py
+[1.117s] copying nodes_topics_py/__init__.py -> /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib/nodes_topics_py
+[1.117s] copying nodes_topics_py/sub_node.py -> /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib/nodes_topics_py
+[1.118s] copying nodes_topics_py/mi_primer_nodo.py -> /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib/nodes_topics_py
+[1.118s] running install
+[1.123s] running install_lib
+[1.141s] creating /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[1.141s] copying /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib/nodes_topics_py/publish_node.py -> /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[1.141s] copying /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib/nodes_topics_py/__init__.py -> /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[1.141s] copying /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib/nodes_topics_py/sub_node.py -> /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[1.141s] copying /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build/lib/nodes_topics_py/mi_primer_nodo.py -> /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py
+[1.141s] byte-compiling /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/publish_node.py to publish_node.cpython-312.pyc
+[1.142s] byte-compiling /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/__init__.py to __init__.cpython-312.pyc
+[1.142s] byte-compiling /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/sub_node.py to sub_node.cpython-312.pyc
+[1.142s] byte-compiling /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py/mi_primer_nodo.py to mi_primer_nodo.cpython-312.pyc
+[1.143s] running install_data
+[1.143s] creating /home/rocioromero/robotica_2026-1/install/nodes_topics_py/share/ament_index
+[1.143s] creating /home/rocioromero/robotica_2026-1/install/nodes_topics_py/share/ament_index/resource_index
+[1.143s] creating /home/rocioromero/robotica_2026-1/install/nodes_topics_py/share/ament_index/resource_index/packages
+[1.143s] copying resource/nodes_topics_py -> /home/rocioromero/robotica_2026-1/install/nodes_topics_py/share/ament_index/resource_index/packages
+[1.143s] copying package.xml -> /home/rocioromero/robotica_2026-1/install/nodes_topics_py/share/nodes_topics_py
+[1.143s] running install_egg_info
+[1.162s] Copying ../build/nodes_topics_py/nodes_topics_py.egg-info to /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py-0.0.0-py3.12.egg-info
+[1.163s] running install_scripts
+[1.284s] Installing my_node_py script to /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/nodes_topics_py
+[1.284s] Installing publish2_node_py script to /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/nodes_topics_py
+[1.284s] Installing subcriber_node_py script to /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/nodes_topics_py
+[1.284s] writing list of installed files to '/home/rocioromero/robotica_2026-1/build/nodes_topics_py/install.log'
+[1.308s] Invoked command in '/home/rocioromero/robotica_2026-1/nodes_topics_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rocioromero/robotica_2026-1/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nodes_topics_py build --build-base /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build install --record /home/rocioromero/robotica_2026-1/build/nodes_topics_py/install.log --single-version-externally-managed install_data

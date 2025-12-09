@@ -1,0 +1,52 @@
+[0.212s] Invoking command in '/home/rocioromero/robotica_2026-1/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rocioromero/robotica_2026-1/scara_pckgs/scara_description -DCMAKE_INSTALL_PREFIX=/home/rocioromero/robotica_2026-1/install/scara_description
+[0.230s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.605s] -- Configuring done (0.4s)
+[0.608s] -- Generating done (0.0s)
+[0.610s] -- Build files have been written to: /home/rocioromero/robotica_2026-1/build/scara_description
+[0.613s] Invoked command in '/home/rocioromero/robotica_2026-1/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rocioromero/robotica_2026-1/scara_pckgs/scara_description -DCMAKE_INSTALL_PREFIX=/home/rocioromero/robotica_2026-1/install/scara_description
+[0.614s] Invoking command in '/home/rocioromero/robotica_2026-1/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rocioromero/robotica_2026-1/build/scara_description -- -j16 -l16
+[0.654s] Invoked command in '/home/rocioromero/robotica_2026-1/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rocioromero/robotica_2026-1/build/scara_description -- -j16 -l16
+[0.656s] Invoking command in '/home/rocioromero/robotica_2026-1/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rocioromero/robotica_2026-1/build/scara_description
+[0.664s] -- Install configuration: ""
+[0.664s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf
+[0.664s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/scara_position_controller.xacro
+[0.665s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/scara_gz2.xacro
+[0.665s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/scara_gz_properties.xacro
+[0.665s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/scara_trajectory_controller.xacro
+[0.665s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/scara_basic_control.xacro
+[0.665s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/scara_basic_position_controller.xacro
+[0.665s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/lidar_sensor.xacro
+[0.666s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/sonar_sensor.xacro
+[0.666s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/gz2_scara.xacro
+[0.666s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/scara_urdf.xacro
+[0.666s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/imu_sensor.xacro
+[0.666s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/position_controller.xacro
+[0.666s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/trajectory_controller.xacro
+[0.666s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/camara_sensor.xacro
+[0.666s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/scara_simple_controller.xacro
+[0.666s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//urdf/scara.urdf
+[0.667s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//launch
+[0.667s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//launch/bringup.launch.py
+[0.667s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//launch/scara_display.launch.xml
+[0.667s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//rviz
+[0.667s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//rviz/scara_rviz.rviz
+[0.667s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//config
+[0.667s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//config/scara_position_controller.yaml
+[0.667s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description//config/scara_trajectory_controller.yaml
+[0.668s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/ament_index/resource_index/package_run_dependencies/scara_description
+[0.668s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/ament_index/resource_index/parent_prefix_path/scara_description
+[0.668s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/environment/ament_prefix_path.sh
+[0.668s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/environment/ament_prefix_path.dsv
+[0.669s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/environment/path.sh
+[0.669s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/environment/path.dsv
+[0.669s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/local_setup.bash
+[0.670s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/local_setup.sh
+[0.671s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/local_setup.zsh
+[0.671s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/local_setup.dsv
+[0.671s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/package.dsv
+[0.671s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/ament_index/resource_index/packages/scara_description
+[0.671s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/cmake/scara_descriptionConfig.cmake
+[0.671s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/cmake/scara_descriptionConfig-version.cmake
+[0.671s] -- Installing: /home/rocioromero/robotica_2026-1/install/scara_description/share/scara_description/package.xml
+[0.679s] Invoked command in '/home/rocioromero/robotica_2026-1/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rocioromero/robotica_2026-1/build/scara_description

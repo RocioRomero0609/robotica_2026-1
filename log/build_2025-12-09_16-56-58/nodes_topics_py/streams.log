@@ -1,0 +1,24 @@
+[0.770s] Invoking command in '/home/rocioromero/robotica_2026-1/nodes_topics_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rocioromero/robotica_2026-1/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nodes_topics_py build --build-base /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build install --record /home/rocioromero/robotica_2026-1/build/nodes_topics_py/install.log --single-version-externally-managed install_data
+[1.009s] running egg_info
+[1.028s] writing ../build/nodes_topics_py/nodes_topics_py.egg-info/PKG-INFO
+[1.028s] writing dependency_links to ../build/nodes_topics_py/nodes_topics_py.egg-info/dependency_links.txt
+[1.028s] writing entry points to ../build/nodes_topics_py/nodes_topics_py.egg-info/entry_points.txt
+[1.028s] writing requirements to ../build/nodes_topics_py/nodes_topics_py.egg-info/requires.txt
+[1.028s] writing top-level names to ../build/nodes_topics_py/nodes_topics_py.egg-info/top_level.txt
+[1.065s] reading manifest file '../build/nodes_topics_py/nodes_topics_py.egg-info/SOURCES.txt'
+[1.065s] adding license file 'LICENSE'
+[1.065s] writing manifest file '../build/nodes_topics_py/nodes_topics_py.egg-info/SOURCES.txt'
+[1.065s] running build
+[1.065s] running build_py
+[1.066s] running install
+[1.070s] running install_lib
+[1.089s] running install_data
+[1.089s] running install_egg_info
+[1.108s] removing '/home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py-0.0.0-py3.12.egg-info' (and everything under it)
+[1.108s] Copying ../build/nodes_topics_py/nodes_topics_py.egg-info to /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages/nodes_topics_py-0.0.0-py3.12.egg-info
+[1.109s] running install_scripts
+[1.235s] Installing my_node_py script to /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/nodes_topics_py
+[1.235s] Installing publish2_node_py script to /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/nodes_topics_py
+[1.235s] Installing subcriber_node_py script to /home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/nodes_topics_py
+[1.235s] writing list of installed files to '/home/rocioromero/robotica_2026-1/build/nodes_topics_py/install.log'
+[1.258s] Invoked command in '/home/rocioromero/robotica_2026-1/nodes_topics_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rocioromero/robotica_2026-1/build/nodes_topics_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rocioromero/robotica_2026-1/install/nodes_topics_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nodes_topics_py build --build-base /home/rocioromero/robotica_2026-1/build/nodes_topics_py/build install --record /home/rocioromero/robotica_2026-1/build/nodes_topics_py/install.log --single-version-externally-managed install_data

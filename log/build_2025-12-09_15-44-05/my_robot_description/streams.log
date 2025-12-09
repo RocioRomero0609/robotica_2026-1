@@ -1,0 +1,32 @@
+[0.009s] Invoking command in '/home/rocioromero/robotica_2026-1/build/my_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rocioromero/robotica_2026-1/movil_robot/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/rocioromero/robotica_2026-1/install/my_robot_description
+[0.152s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.244s] -- Detecting C compiler ABI info
+[0.330s] -- Detecting C compiler ABI info - done
+[0.339s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.340s] -- Detecting C compile features
+[0.340s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.443s] -- Detecting CXX compiler ABI info - done
+[0.452s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.453s] -- Detecting CXX compile features
+[0.453s] -- Detecting CXX compile features - done
+[0.467s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.467s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.467s]   has asked CMake to find a package configuration file provided by
+[0.467s]   "ament_cmake", but CMake did not find one.
+[0.468s] 
+[0.468s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.468s]   any of the following names:
+[0.468s] 
+[0.468s]     ament_cmakeConfig.cmake
+[0.468s]     ament_cmake-config.cmake
+[0.468s] 
+[0.468s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.468s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.468s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.468s]   has been installed.
+[0.468s] 
+[0.468s] [0m
+[0.468s] -- Configuring incomplete, errors occurred!
+[0.470s] Invoked command in '/home/rocioromero/robotica_2026-1/build/my_robot_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rocioromero/robotica_2026-1/movil_robot/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/rocioromero/robotica_2026-1/install/my_robot_description
